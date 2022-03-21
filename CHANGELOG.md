@@ -1,5 +1,17 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.0...v0.1.1) (2022-03-21)
+
+
+### Bug Fixes
+
+* allow to use `psr/simple-cache` v1 ([f8ac908](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/f8ac90871e5d49f9235cdccb82858be8e7a4297d))
+
+
+### Miscellaneous Chores
+
+* remove space ([a4f3a99](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/a4f3a99562dadfb70e71809b71b1870b9a003a2b))
+
 ## 0.1.0 (2022-03-21)
 
 
