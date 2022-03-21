@@ -210,6 +210,7 @@ class Client implements HttpClientInterface
     private function performRequest(HttpMethodEnum $method, string $uri, array $data): ResponseInterface
     {
         $options = [
+            \GuzzleHttp\RequestOptions::TIMEOUT => 300,
             \GuzzleHttp\RequestOptions::HEADERS => [
                 'Accept' => 'application/json',
                 'Authorization' => "Bearer {$this->getToken()}"
@@ -222,8 +223,6 @@ class Client implements HttpClientInterface
         };
 
         $options[$option] = $data;
-
-        // dd($options);
 
         $uri = (string) $this->resolveUriFor($this->config->getUrl(), $uri);
         return $this->httpClient->request($method->value, $uri, $options);
