@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.1...v0.1.2) (2022-03-21)
+
+
+### Bug Fixes
+
+* set local timeout ([ab7f835](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/ab7f8353eb9b4c1376c2807be9993776d839fd13))
+
 ### [0.1.1](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.0...v0.1.1) (2022-03-21)
 
 
