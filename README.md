@@ -23,9 +23,10 @@ use BrokeYourBike\UnionBank\Interfaces\ConfigInterface;
 
 assert($config instanceof ConfigInterface);
 assert($httpClient instanceof \GuzzleHttp\ClientInterface);
+assert($cache instanceof \Psr\SimpleCache\CacheInterface);
 
-$apiClient = new Client($config, $httpClient);
-$apiClient->generateToken();
+$apiClient = new Client($config, $httpClient, $cache);
+$apiClient->fetchToken();
 ```
 
 ## Authors
