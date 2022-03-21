@@ -33,7 +33,7 @@
         "brokeyourbike/resolve-uri": "^1.0",
         "brokeyourbike/http-enums": "^2.0",
         "brokeyourbike/data-transfer-object": "^0.2",
-        "psr/simple-cache": "^3.0"
+        "psr/simple-cache": "^1.0|^3.0"
     },
     "require-dev": {
         "bamarni/composer-bin-plugin": "^1.4",
