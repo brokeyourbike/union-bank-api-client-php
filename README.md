@@ -30,7 +30,6 @@ $apiClient->fetchToken();
 ```
 
 ## Authors
-
 - [Ivan Stasiuk](https://github.com/brokeyourbike) | [Twitter](https://twitter.com/brokeyourbike) | [stasi.uk](https://stasi.uk)
 
 ## License
