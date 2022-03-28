@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.2...v0.1.3) (2022-03-28)
+
+
+### Bug Fixes
+
+* remove useless option ([a654940](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/a654940532b5e3d7c6d5735230919bb677f386d9))
+
 ### [0.1.2](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.1...v0.1.2) (2022-03-21)
 
 
