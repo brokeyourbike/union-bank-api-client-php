@@ -210,7 +210,6 @@ class Client implements HttpClientInterface
     private function performRequest(HttpMethodEnum $method, string $uri, array $data): ResponseInterface
     {
         $options = [
-            \GuzzleHttp\RequestOptions::TIMEOUT => 300,
             \GuzzleHttp\RequestOptions::HEADERS => [
                 'Accept' => 'application/json',
                 'Authorization' => "Bearer {$this->getToken()}"
