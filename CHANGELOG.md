@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.4](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.3...v0.1.4) (2022-04-03)
+
+
+### Bug Fixes
+
+* do half of the `expiresIn` value ([2ff7a5e](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/2ff7a5e0badf2148c98de988b199816e95c1fbc7))
+
 ### [0.1.3](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.2...v0.1.3) (2022-03-28)
 
 
