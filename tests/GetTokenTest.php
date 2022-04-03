@@ -59,7 +59,7 @@ class GetTokenTest extends TestCase
             ->with(
                 $api->authTokenCacheKey(),
                 $this->tokenValue,
-                600000
+                600000 / 2
             );
     }
 
