@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.5](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.4...v0.1.5) (2023-05-14)
+
+
+### Miscellaneous Chores
+
+* badges ([b85945a](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/b85945a84b34a38b6d75bbb8e4c7b31ccf7fdd40))
+
 ### [0.1.4](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.3...v0.1.4) (2022-04-03)
 
 
