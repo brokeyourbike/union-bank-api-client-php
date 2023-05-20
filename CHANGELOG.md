@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.6](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.5...v0.1.6) (2023-05-20)
+
+
+### Miscellaneous Chores
+
+* button ([2e61093](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/2e61093caac731c1f6575deee719b56429256db6))
+
 ### [0.1.5](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.4...v0.1.5) (2023-05-14)
 
 
