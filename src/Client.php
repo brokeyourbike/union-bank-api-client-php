@@ -8,6 +8,8 @@
 
 namespace BrokeYourBike\UnionBank;
 
+use BrokeYourBike\HasSourceModel\HasSourceModelTrait;
+use BrokeYourBike\HasSourceModel\SourceModelInterface;
 use Psr\SimpleCache\CacheInterface;
 use Psr\Http\Message\ResponseInterface;
 use GuzzleHttp\ClientInterface;
@@ -30,6 +32,7 @@ class Client implements HttpClientInterface
 {
     use HttpClientTrait;
     use ResolveUriTrait;
+    use HasSourceModelTrait;
 
     private ConfigInterface $config;
     private CacheInterface $cache;
@@ -119,6 +122,10 @@ class Client implements HttpClientInterface
 
     public function getTransactionStatus(TransactionInterface $transaction): GetTransactionStatusResponse
     {
+        if ($transaction instanceof SourceModelInterface) {
+            $this->setSourceModel($transaction);
+        }
+
         $response = $this->performRequest(HttpMethodEnum::GET, 'transactions/getStatus', [
             'transactionReference' => $transaction->getRemoteReference(),
         ]);
@@ -127,6 +134,10 @@ class Client implements HttpClientInterface
 
     public function initiateTransaction(TransactionInterface $transaction): InitiateTransactionResponse
     {
+        if ($transaction instanceof SourceModelInterface) {
+            $this->setSourceModel($transaction);
+        }
+        
         $response = $this->performRequest(HttpMethodEnum::POST, 'transactions/initiate', [
             'pin' => $transaction->getReference(),
             'merchantCode' => $this->config->getMerchantCode(),
