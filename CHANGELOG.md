@@ -1,5 +1,22 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.5...v0.2.0) (2023-11-23)
+
+
+### Features
+
+* use source ([9b35b28](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/9b35b28e621a0357af4199bb498d7661c48adb8f))
+
+
+### Bug Fixes
+
+* add more state codes ([16022fc](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/16022fc701d8b2e97f5853c37b35fdd46fbeb6ef))
+
+
+### Miscellaneous Chores
+
+* button ([2e61093](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/2e61093caac731c1f6575deee719b56429256db6))
+
 ### [0.1.5](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.1.4...v0.1.5) (2023-05-14)
 
 
