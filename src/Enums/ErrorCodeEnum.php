@@ -27,4 +27,9 @@ enum ErrorCodeEnum: string
      * System Malfunction
      */
     case SYSTEM_MALFUNCTION = '96';
+
+    /**
+     * Invalid Sender Account
+     */
+    case INVALID_SENDER_ACCOUNT = '07';
 }
