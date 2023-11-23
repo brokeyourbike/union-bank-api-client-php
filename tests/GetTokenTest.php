@@ -59,7 +59,7 @@ class GetTokenTest extends TestCase
             ->with(
                 $api->authTokenCacheKey(),
                 $this->tokenValue,
-                600000 / 2
+                60
             );
     }
 
@@ -91,5 +91,4 @@ class GetTokenTest extends TestCase
 
         $this->assertSame($this->tokenValue, $requestResult);
     }
-
 }
