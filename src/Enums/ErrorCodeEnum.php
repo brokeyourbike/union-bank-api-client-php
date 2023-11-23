@@ -13,23 +13,8 @@ namespace BrokeYourBike\UnionBank\Enums;
  */
 enum ErrorCodeEnum: string
 {
-    /**
-     * Completed Successfully
-     */
     case SUCCESS = '00';
-
-    /**
-     * Format Error
-     */
     case FORMAT_ERROR = '30';
-
-    /**
-     * System Malfunction
-     */
     case SYSTEM_MALFUNCTION = '96';
-
-    /**
-     * Invalid Sender Account
-     */
-    case INVALID_SENDER_ACCOUNT = '07';
+    case RECIPIENT_ACCOUNT_INVALID = '07';
 }
