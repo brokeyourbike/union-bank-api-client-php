@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.2.3](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.2.2...v0.2.3) (2023-11-27)
+
+
+### Bug Fixes
+
+* more states ([9c7d23b](https://www.github.com/brokeyourbike/union-bank-api-client-php/commit/9c7d23b9bfe8f44d75723e534bcb87a5af0effab))
+
 ### [0.2.2](https://www.github.com/brokeyourbike/union-bank-api-client-php/compare/v0.2.1...v0.2.2) (2023-11-23)
 
 
